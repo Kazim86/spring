@@ -7,16 +7,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/consumer_analysis/pom.xml" />
-        <option value="$PROJECT_DIR$/consumer_write/pom.xml" />
-        <option value="$PROJECT_DIR$/producer/pom.xml" />
-        <option value="$PROJECT_DIR$/producer_tcpclient/pom.xml" />
-        <option value="$PROJECT_DIR$/producer_tcpserver/pom.xml" />
-      </set>
-    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
