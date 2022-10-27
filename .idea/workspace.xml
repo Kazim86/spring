@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ca35d85-d73f-4f15-827c-c5c0d0c9c405" name="Changes" comment="re">
-      <change afterPath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/controller/TcpServerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/config/KafkaProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/model/DataModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_analysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_analysis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_write/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_write/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer_tcpclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpclient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/config/TcpClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/config/TcpClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/gateway/TcpClientGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/gateway/TcpClientGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/scheduler/MessageJobScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/scheduler/MessageJobScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer_tcpclient/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpclient/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer_tcpserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/TcpserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/TcpserverApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/config/TcpServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/config/TcpServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/controller/TcpServerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/controller/TcpServerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/endpoint/TcpServerEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/endpoint/TcpServerEndpoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer_tcpserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpserver/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +66,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="producer.tcpserver.model" />
+      <recent name="producer.tcpserver.config" />
       <recent name="com" />
       <recent name="producer.tcpclient.endpoint" />
       <recent name="producer.tcpclient.config" />
-      <recent name="producer.tcpclient.model" />
-      <recent name="producer.tcpserver.model" />
     </key>
   </component>
   <component name="RunManager" selected="Application.TcpclientApplication">

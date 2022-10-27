@@ -3,7 +3,6 @@ package producer.tcpserver.endpoint;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.integration.annotation.MessageEndpoint;
 import org.springframework.integration.annotation.ServiceActivator;
-import org.springframework.integration.annotation.Transformer;
 import producer.tcpserver.service.MessageService;
 
 @MessageEndpoint
@@ -14,6 +13,7 @@ public class TcpServerEndpoint {
     public TcpServerEndpoint(MessageService messageService) {
         this.messageService = messageService;
     }
+
     /*
     @Transformer(inputChannel="inboundChannel", outputChannel="toEcho")
     public String convert(byte[] bytes) {
