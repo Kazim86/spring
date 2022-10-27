@@ -1,0 +1,5 @@
+server:
+  port: 9053
+tcp:
+  server:
+    port: 10001

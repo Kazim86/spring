@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Consumer</title>
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+</head>
+<body>
+    <div id="select" style="margin: 1% 5%;">
+        <form th:action="@{/}">
+            <textarea class="form-control" id="sql" rows="3" placeholder="Введите SQL Запрос" th:name="select" th:text="${select}" style="margin: 2% 0%"></textarea>
+            <button type="submit" class="btn btn-primary">Отправить</button>
+            <button type="button" class="btn btn-primary" onclick="window.location.href = '/';">Очистить</button>
+        </form>
+    </div>
+    <div id="button" style="margin: 1% 5%;">
+        <button id="buttonGraph" type="button" class="btn btn-primary" onclick="view();">График</button>
+        <button id="buttonConn" type="button" class="btn btn-primary" onclick="conn();" style="display: none;">Подключиться</button>
+        <button id="buttonClos" type="button" class="btn btn-primary" onclick="clos();" style="display: none;">Отключиться</button>
+    </div>
+    <div id="table" style="margin: 1% 5%;">
+        <table class="table table-striped">
+            <tr>
+                <th>Id</th>
+                <th>Value</th>
+                <th>Time</th>
+                <th>Date</th>
+            </tr>
+            <tr th:each="dataModel : ${dataModels}">
+                <td th:text="${dataModel.id}"></td>
+                <td th:text="${dataModel.value}"></td>
+                <td th:text="${dataModel.time}"></td>
+                <td th:text="${dataModel.date}"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="graph" style="margin: 1% 5%; display: none;">
+        <div style="margin: 5% 10%;">
+            <canvas id="chart"></canvas>
+        </div>
+    </div>
+<script th:src="@{/js/lib/bootstrap.min.js}"></script>
+<script th:src="@{/js/lib/sockjs.min.js}"></script>
+<script th:src="@{/js/lib/stomp.min.js}"></script>
+<script th:src="@{/js/lib/chart.js}"></script>
+<script th:src="@{/js/index.js}"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Producer</title>
+    <link th:href="@{/css/lib/bootstrap.min.css}" rel="stylesheet">
+</head>
+<body>
+    <div class="row" style="margin: 2% 5%;">
+        <div class="col-md-8 order-md-1">
+            <p class="lead mb-2" th:each="task:${data}" th:text="${task}"></p>
+        </div>
+        <div class="col-md-4 order-md-2 mb-4">
+            <form th:action="@{/gen}">
+                <div class="input-group" style="margin: 2% 5%;">
+                    <input type="text" class="form-control" placeholder="Количество записей" th:name="col" th:text="${col}">
+                </div>
+                <div class="input-group-append" style="margin: 2% 5%;">
+                    <button type="submit" class="btn btn-primary">Старт</button>
+                    <a href="/"><button type="button" class="btn btn-primary">Очистить</button></a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script th:src="@{/js/lib/bootstrap.min.js}"></script>
+    <script th:src="@{/js/index.js}"></script>
+</body>
+</html>

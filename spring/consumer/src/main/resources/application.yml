@@ -1,0 +1,6 @@
+spring:
+  kafka:
+    bootstrap-servers: kafka:9092
+    consumer.group-id: write.1
+server:
+  port: 9020

@@ -1,0 +1,17 @@
+server:
+  port: 9050
+
+spring:
+  kafka:
+    #bootstrap-servers: localhost:29092
+    bootstrap-servers: kafka:9092
+    consumer.group-id: consumer.write
+
+consumer:
+  properties:
+    database:
+      #id: localhost
+      ip: 172.20.0.2
+      port: 8123
+      user: admin
+      pass: admin
