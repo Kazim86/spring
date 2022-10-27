@@ -3,9 +3,3 @@ server:
 tcp:
   server:
     port: 10001
-spring:
-  kafka:
-    bootstrap-servers: localhost:29092
-    #bootstrap-servers: kafka:9092
-    consumer:
-      group-id: producer_tcpserver.1
