@@ -9,7 +9,5 @@
 	</parent>
 	<groupId>producer</groupId>
 	<artifactId>tcpserver</artifactId>
-	<version>0.1</version>
-	<name>producer_tcpserver</name>
 	<description>Producer TCP-server</description>
 </project>

@@ -19,14 +19,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 public class TcpClientConfig implements ApplicationEventPublisherAware {
 
-    @Value("${tcp.server.host}")
-    private String host;
-
-    @Value("${tcp.server.port}")
-    private int port;
-
-    @Value("${tcp.client.connection.poolSize}")
-    private int connectionPoolSize;
+    @Value("${tcp.server.host}") private String host;
+    @Value("${tcp.server.port}") private int port;
+    @Value("${tcp.client.pool}") private int pool;
 
     private ApplicationEventPublisher applicationEventPublisher;
 
@@ -37,10 +32,10 @@ public class TcpClientConfig implements ApplicationEventPublisherAware {
 
     @Bean
     public AbstractClientConnectionFactory clientConnectionFactory() {
-        TcpNioClientConnectionFactory factory = new TcpNioClientConnectionFactory(host, port);
-        factory.setUsingDirectBuffers(true);
-        factory.setApplicationEventPublisher(applicationEventPublisher);
-        return new CachingClientConnectionFactory(factory, connectionPoolSize);
+        TcpNioClientConnectionFactory tcpNioClientConnectionFactory = new TcpNioClientConnectionFactory(host, port);
+        tcpNioClientConnectionFactory.setUsingDirectBuffers(true);
+        tcpNioClientConnectionFactory.setApplicationEventPublisher(applicationEventPublisher);
+        return new CachingClientConnectionFactory(tcpNioClientConnectionFactory, pool);
     }
 
     @Bean
@@ -49,10 +44,10 @@ public class TcpClientConfig implements ApplicationEventPublisherAware {
     }
 
     @Bean
-    @ServiceActivator(inputChannel = "outboundChannel")
+    @ServiceActivator(inputChannel = "toTcp")
     public MessageHandler outboundGateway(AbstractClientConnectionFactory clientConnectionFactory) {
-        TcpOutboundGateway gateway = new TcpOutboundGateway();
-        gateway.setConnectionFactory(clientConnectionFactory);
-        return gateway;
+        TcpOutboundGateway tcpOutboundGateway = new TcpOutboundGateway();
+        tcpOutboundGateway.setConnectionFactory(clientConnectionFactory);
+        return tcpOutboundGateway;
     }
 }

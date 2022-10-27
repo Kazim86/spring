@@ -9,7 +9,7 @@ public class MessageService {
     private static final Logger LOGGER = LoggerFactory.getLogger(MessageService.class);
 
     public byte[] processMessage(byte[] message) {
-        LOGGER.info("Receive message: " + new String(message) + " Send message: " + "ok!");
-        return "ok!".getBytes();
+        LOGGER.info("Receive message: {}" , new String(message));
+        return "Ok!".getBytes();
     }
 }

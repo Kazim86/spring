@@ -9,7 +9,5 @@
 	</parent>
 	<groupId>consumer</groupId>
 	<artifactId>write</artifactId>
-	<version>0.1</version>
-	<name>consumer_write</name>
 	<description>Consumer Write DataBase</description>
 </project>

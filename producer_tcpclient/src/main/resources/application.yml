@@ -5,5 +5,4 @@ tcp:
     host: localhost
     port: 10010
   client:
-    connection:
-      poolSize: 50
+    pool: 50

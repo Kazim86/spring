@@ -9,7 +9,5 @@
 	</parent>
 	<groupId>consumer</groupId>
 	<artifactId>analysis</artifactId>
-	<version>0.1</version>
-	<name>consumer_analysis</name>
 	<description>Consumer Analysis Date</description>
 </project>

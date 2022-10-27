@@ -9,7 +9,5 @@
 	</parent>
 	<groupId>producer</groupId>
 	<artifactId>common</artifactId>
-	<version>0.1</version>
-	<name>producer</name>
 	<description>Producer Common</description>
 </project>
