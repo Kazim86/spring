@@ -2,4 +2,4 @@ server:
   port: 9053
 tcp:
   server:
-    port: 10001
+    port: 10010
