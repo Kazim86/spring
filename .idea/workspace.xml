@@ -4,10 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ca35d85-d73f-4f15-827c-c5c0d0c9c405" name="Changes" comment="main">
+    <list default="true" id="3ca35d85-d73f-4f15-827c-c5c0d0c9c405" name="Changes" comment="re">
+      <change afterPath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/controller/TcpServerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_analysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_analysis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_write/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_write/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer_tcpclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpclient/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/config/TcpClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/config/TcpClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/gateway/TcpClientGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/gateway/TcpClientGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/scheduler/MessageJobScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/scheduler/MessageJobScheduler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer_tcpclient/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpclient/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer_tcpserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer_tcpserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/TcpserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/TcpserverApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/config/TcpServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/config/TcpServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/endpoint/TcpServerEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/endpoint/TcpServerEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/service/MessageService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,7 +54,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GhKVWizIhh1kXpYJ02m7Hi0nUe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -66,7 +83,7 @@
       <recent name="producer.tcpserver.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.main [clean]">
+  <component name="RunManager" selected="Application.TcpclientApplication">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Main" />
       <module name="test" />
@@ -201,8 +218,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TcpclientApplication" />
         <item itemvalue="Application.TcpserverApplication" />
+        <item itemvalue="Application.TcpclientApplication" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Docker.producer/Dockerfile" />
       </list>
@@ -231,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666839804640</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="re">
+      <created>1666853244733</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666853244733</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,6 +299,7 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="main" />
-    <option name="LAST_COMMIT_MESSAGE" value="main" />
+    <MESSAGE value="re" />
+    <option name="LAST_COMMIT_MESSAGE" value="re" />
   </component>
 </project>
