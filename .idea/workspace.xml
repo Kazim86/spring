@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ca35d85-d73f-4f15-827c-c5c0d0c9c405" name="Changes" comment="main">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpserver/src/main/java/producer/tcpserver/service/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer_tcpserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/config/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/config/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/model/DataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/model/DataModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer_tcpclient/src/main/java/producer/tcpclient/service/MessageService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="producer.tcpclient.config" />
+      <recent name="producer.tcpclient.model" />
       <recent name="producer.tcpserver.model" />
       <recent name="producer.tcpserver.config" />
     </key>
