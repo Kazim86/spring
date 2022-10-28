@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ca35d85-d73f-4f15-827c-c5c0d0c9c405" name="Changes" comment="re">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_api/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_api/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_api/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_api/src/main/java/consumer/rest/RestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/src/main/java/consumer/rest/RestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_api/src/test/java/consumer/rest/RestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/src/test/java/consumer/rest/RestApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +79,7 @@
       <recent name="producer.tcpclient.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TcpclientApplication">
+  <component name="RunManager" selected="Maven.main [clean]">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Main" />
       <module name="test" />

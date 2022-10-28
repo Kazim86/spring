@@ -17,10 +17,10 @@
         <module>consumer</module>
         <module>consumer_analysis</module>
         <module>consumer_write</module>
+        <module>consumer_rest</module>
         <module>producer</module>
         <module>producer_tcpclient</module>
         <module>producer_tcpserver</module>
-        <module>rest_api</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
