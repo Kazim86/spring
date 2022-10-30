@@ -93,7 +93,7 @@
   <component name="RunManager" selected="Maven.main [clean]">
     <configuration name="TcpclientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="producer.tcpclient.TcpclientApplication" />
-      <module name="tcpclient" />
+      <module name="producer_tcpclient" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="producer.tcpclient.*" />
@@ -106,7 +106,7 @@
     </configuration>
     <configuration name="TcpserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="producer.tcpserver.TcpserverApplication" />
-      <module name="tcpserver" />
+      <module name="producer_tcpserver" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="producer.tcpserver.*" />
