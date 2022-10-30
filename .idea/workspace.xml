@@ -5,16 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ca35d85-d73f-4f15-827c-c5c0d0c9c405" name="Changes" comment="re">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest_api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest_api/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest_api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest_api/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest_api/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest_api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest_api/src/main/java/consumer/rest/RestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/src/main/java/consumer/rest/RestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest_api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest_api/src/test/java/consumer/rest/RestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/src/test/java/consumer/rest/RestApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer_rest/rest_1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer_rest/rest_2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/src/main/java/consumer/rest/RestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/src/main/resources/static/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/src/main/resources/static/js/lib/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/src/main/resources/static/js/lib/chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/src/main/resources/static/js/lib/sockjs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/src/main/resources/static/js/lib/stomp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/src/test/java/consumer/rest/RestApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +72,15 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Java\git\Spring\producer_tcpserver\src\main\resources\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Evgeny\IdeaProjects\Spring\consumer_rest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="producer.tcpserver.model" />
@@ -80,19 +91,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Maven.main [clean]">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Main" />
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TcpclientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="producer.tcpclient.TcpclientApplication" />
       <module name="tcpclient" />
@@ -205,7 +203,6 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.TcpclientApplication" />
       <item itemvalue="Application.TcpserverApplication" />
       <item itemvalue="Docker.producer/Dockerfile" />
@@ -216,7 +213,6 @@
       <list>
         <item itemvalue="Application.TcpserverApplication" />
         <item itemvalue="Application.TcpclientApplication" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Docker.producer/Dockerfile" />
       </list>
     </recent_temporary>
