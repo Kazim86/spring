@@ -1,23 +1,33 @@
 package rest.r2;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import lombok.NonNull;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Iterator;
+import java.util.Map;
 
 @RestController
+@RequestMapping(path = "/", produces = "application/json")
 public class R2Controller {
 
-    @RequestMapping(value = "/", method = {RequestMethod.GET})
-    public String indexGET() {
-        System.out.println("GET!!!");
-        return "{\"id\":\"12345\"}";
+    @GetMapping
+    public ResponseEntity<String> indexGET(@RequestHeader Map<String, String> header, @NonNull @RequestBody String body) {
+        for (Map.Entry<String, String> entry : header.entrySet()) {
+            System.out.println(entry.getKey() + ":" + entry.getValue());
+        }
+        System.out.println(body);
+        return new ResponseEntity<String>(body, HttpStatus.OK);
     }
 
-    @RequestMapping(value = "/", method = {RequestMethod.POST})
-    public String indexPOST() {
-        System.out.println("POST!!!");
-        return "{\"id\":\"12345\"}";
+    @PostMapping
+    public ResponseEntity<String> indexPOST(@RequestHeader Map<String, String> header, @RequestBody UserModel body) {
+        for (Map.Entry<String, String> entry : header.entrySet()) {
+            System.out.println(entry.getKey() + ":" + entry.getValue());
+        }
+        System.out.println(body);
+        return new ResponseEntity<String>(body.toString(), HttpStatus.OK);
     }
 }

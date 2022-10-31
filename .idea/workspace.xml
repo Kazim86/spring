@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ca35d85-d73f-4f15-827c-c5c0d0c9c405" name="Changes" comment="re" />
+    <list default="true" id="3ca35d85-d73f-4f15-827c-c5c0d0c9c405" name="Changes" comment="re">
+      <change afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/R1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer_rest/rest_2/src/main/java/rest/r2/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/R1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/R1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_2/src/main/java/rest/r2/R2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_2/src/main/java/rest/r2/R2Controller.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +78,7 @@
       <recent name="producer.tcpclient.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.main [clean]">
+  <component name="RunManager" selected="Application.R1Application">
     <configuration name="R1Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rest.r1.R1Application" />
       <module name="rest_1" />
@@ -220,8 +227,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.R1Application" />
         <item itemvalue="Application.R2Application" />
+        <item itemvalue="Application.R1Application" />
         <item itemvalue="Application.TcpserverApplication" />
         <item itemvalue="Application.TcpclientApplication" />
         <item itemvalue="Docker.producer/Dockerfile" />
