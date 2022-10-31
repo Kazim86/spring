@@ -3,3 +3,11 @@ server:
 webclient:
   url :
   timeout: 1000
+
+etcAuth:
+  tokenName: etc_token
+  secretKey: qwertyuiopasdfghjklzxcvbnm123456LKgkhgkhGLKHJBLkjhlkjhlkgl9765i867gkjhgkJGKJHGJKhgdi7658i7658i7ugKasdufg9287364876akjshd
+  rolePrefix: ""
+  roleAdmin: ""
+  roleAny: "*"
+  rolePublic: "**"

@@ -8,12 +8,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/R1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/R1Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/controller/R1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/controller/R1Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_2/src/main/java/rest/r2/R2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_2/src/main/java/rest/r2/R2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_2/src/main/java/rest/r2/R2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_2/src/main/java/rest/r2/R2Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,6 +42,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/R1Application.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -49,27 +56,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Java/git/Spring/consumer_rest/rest_1/src/main/resources/static",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Java/git/Spring/tool/etcauth.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\git\Spring\consumer_rest\rest_1\src\main\resources" />
       <recent name="C:\Java\git\Spring\consumer_rest\rest_1\src\main\resources\static" />
       <recent name="C:\Java\git\Spring\consumer_rest" />
       <recent name="C:\Java\git\Spring\producer_tcpserver\src\main\resources\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Java\git\Spring\tool" />
+      <recent name="C:\Java\git\Spring\consumer_rest\rest_1\src\main\java" />
+      <recent name="C:\Java\git\Spring\consumer_rest\rest_1\src\main\lib" />
+      <recent name="C:\Java\git\Spring\consumer_rest\rest_1\src\main\resources" />
       <recent name="C:\Users\Evgeny\IdeaProjects\Spring\consumer_rest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -315,5 +332,15 @@
     <MESSAGE value="main" />
     <MESSAGE value="re" />
     <option name="LAST_COMMIT_MESSAGE" value="re" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
