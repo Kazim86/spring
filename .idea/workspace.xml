@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ca35d85-d73f-4f15-827c-c5c0d0c9c405" name="Changes" comment="re">
-      <change afterPath="$PROJECT_DIR$/consumer_analysis/src/main/java/consumer/analysis/config/KafkaProducerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/model/WebClientModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_analysis/src/main/java/consumer/analysis/config/AnalysisKafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_analysis/src/main/java/consumer/analysis/config/KafkaConsumerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_analysis/src/main/java/consumer/analysis/service/AnalysisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_analysis/src/main/java/consumer/analysis/service/AnalysisService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_analysis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_analysis/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/R1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/R1Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/controller/R1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/controller/R1Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_write/src/main/java/consumer/write/service/WriteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_write/src/main/java/consumer/write/service/WriteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_write/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_write/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_2/src/main/java/rest/r2/R2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_2/src/main/java/rest/r2/R2Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +80,7 @@
       <recent name="producer.tcpclient.endpoint" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerApplication">
+  <component name="RunManager" selected="Application.R1Application">
     <configuration name="AnalysisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="consumer.analysis.AnalysisApplication" />
       <module name="consumer_analysis" />
@@ -234,11 +224,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.R1Application" />
+        <item itemvalue="Application.R2Application" />
         <item itemvalue="Application.AnalysisApplication" />
         <item itemvalue="Application.ProducerApplication" />
         <item itemvalue="Application.WriteApplication" />
-        <item itemvalue="Application.R1Application" />
-        <item itemvalue="Application.R2Application" />
       </list>
     </recent_temporary>
   </component>

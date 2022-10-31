@@ -23,11 +23,11 @@ public class R2Controller {
     }
 
     @PostMapping
-    public ResponseEntity<String> indexPOST(@RequestHeader Map<String, String> header, @RequestBody UserModel body) {
+    public ResponseEntity<String> indexPOST(@RequestHeader Map<String, String> header, @RequestBody String body) {
         for (Map.Entry<String, String> entry : header.entrySet()) {
             System.out.println(entry.getKey() + ":" + entry.getValue());
         }
         System.out.println(body);
-        return new ResponseEntity<String>(body.toString(), HttpStatus.OK);
+        return new ResponseEntity<String>(body, HttpStatus.OK);
     }
 }

@@ -35,6 +35,19 @@ public class R1Controller {
                 .bodyToMono(String.class)
                 .block();
         model.addAttribute("data_get", out);
+
+        System.out.println(out);
+
+        String out2 = webClient
+                .post()
+                .uri("http://localhost:9081/")
+                .header(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
+                .body(BodyInserters.fromValue("{\"data\":"+out+"}"))
+                .retrieve()
+                .bodyToMono(String.class)
+                .block();
+
+
         return "index";
     }
 
