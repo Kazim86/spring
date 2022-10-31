@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>REST API</title>
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+</head>
+<body>
+<p>http://elvis.sib.rual.ru:9988/getUserGraphs?room=1&user=shakhmat&pswd=vv</p>
+<div>
+    <div  id="get" style="margin: 1% 1%; width:48%; float: left;">
+        <form th:action="@{/get}">
+            <textarea class="form-control" id="g" rows="3" placeholder="get" th:name="data_get" style="margin: 2% 0%"></textarea>
+            <button type="submit" class="btn btn-primary">get</button>
+        </form>
+        <br>
+        <p th:text="${data_get}"></p>
+    </div>
+    <div id="post" style="margin: 1% 1%; width:48%; float: right">
+        <form th:action="@{/post}">
+            <textarea class="form-control" id="p" rows="3" placeholder="post" th:name="data_post" style="margin: 2% 0%"></textarea>
+            <button type="submit" class="btn btn-primary">post</button>
+        </form>
+        <br>
+        <p th:text="${data_post}"></p>
+    </div>
+</div>
+</body>
+</html>

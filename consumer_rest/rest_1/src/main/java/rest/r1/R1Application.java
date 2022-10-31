@@ -5,8 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class R1Application {
-	public static void main(String[] args) throws InterruptedException {
+public class R1Application {	public static void main(String[] args) throws InterruptedException {
 		SpringApplication.run(R1Application.class, args);
 	}
 }

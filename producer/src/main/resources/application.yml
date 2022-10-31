@@ -2,7 +2,7 @@ server:
   port: 9010
 spring:
   kafka:
-    #bootstrap-servers: localhost:29092
-    bootstrap-servers: kafka:9092
+    bootstrap-servers: localhost:29092
+    #bootstrap-servers: kafka:9092
     consumer:
       group-id: producer.1

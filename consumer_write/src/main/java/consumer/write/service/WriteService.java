@@ -24,7 +24,8 @@ public class WriteService {
     private WriteProperties properties;
 
     @KafkaListener(topics="write")
-    public void listener (ConsumerRecord<String, DataModel> record) throws SQLException {
+    public void listener_write (ConsumerRecord<String, DataModel> record) throws SQLException {
+        System.out.println("WRITE");
         System.out.println(record.value());
         /*
         writeModelArrayList.add(record.value());
@@ -34,5 +35,10 @@ public class WriteService {
         }
          */
         //new WriteRepository().insert(record.value(), properties);
+    }
+    @KafkaListener(topics="write_new")
+    public void listener_write_new (ConsumerRecord<String, DataModel> record) throws SQLException {
+        System.out.println("WRITE_NEW");
+        System.out.println(record.value());
     }
 }
