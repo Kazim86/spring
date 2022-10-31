@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ca35d85-d73f-4f15-827c-c5c0d0c9c405" name="Changes" comment="re">
-      <change afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/R1Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/config/WebClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_rest/rest_2/src/main/java/rest/r2/UserModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/R1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/R1Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_2/src/main/java/rest/r2/R2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_2/src/main/java/rest/r2/R2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/R1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/controller/R1Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/config/WebClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,21 +50,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Java/git/Spring&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Java/git/Spring/consumer_rest",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\git\Spring\consumer_rest" />
       <recent name="C:\Java\git\Spring\producer_tcpserver\src\main\resources\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -84,7 +85,7 @@
       <module name="rest_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rest.r1.*" />
+          <option name="PATTERN" value="rest.r1.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,8 +228,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.R2Application" />
         <item itemvalue="Application.R1Application" />
+        <item itemvalue="Application.R2Application" />
         <item itemvalue="Application.TcpserverApplication" />
         <item itemvalue="Application.TcpclientApplication" />
         <item itemvalue="Docker.producer/Dockerfile" />

@@ -1,2 +1,5 @@
 server:
   port: 9080
+webclient:
+  url : http://localhost:9081
+  timeout: 1000

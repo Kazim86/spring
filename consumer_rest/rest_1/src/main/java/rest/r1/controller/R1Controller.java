@@ -1,4 +1,4 @@
-package rest.r1;
+package rest.r1.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
@@ -28,26 +28,14 @@ public class R1Controller {
 
     @GetMapping
     public String index(@RequestParam(name = "id") String id, @RequestParam(name = "value") String value){
-        WebClient client = WebClient.builder()
-                .baseUrl("http://localhost:9081")
-                .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
-                .defaultUriVariables(Collections.singletonMap("url", "http://localhost:8080"))
-                .build();
-        WebClient.UriSpec<WebClient.RequestBodySpec> uriSpec = client
-                .method(HttpMethod.POST);
-        WebClient.RequestBodySpec bodySpec = uriSpec
-                .uri("/");
-        WebClient.RequestHeadersSpec<?> headersSpec = bodySpec
-                .body(BodyInserters.fromValue("{\"id\":"+id+",\"value\":"+value+"}"));
-        WebClient.ResponseSpec responseSpec = headersSpec
+        String json = "{\"id\":"+id+",\"value\":"+value+"}";
+        return webClient
+                .post()
+                .uri("/")
                 .header(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
-                .accept(MediaType.APPLICATION_JSON)
-                .acceptCharset(StandardCharsets.UTF_8)
-                .ifNoneMatch("*")
-                .ifModifiedSince(ZonedDateTime.now())
-                .retrieve();
-        Mono<String> response = responseSpec
-                .bodyToMono(String.class);
-        return response.block();
+                .body(BodyInserters.fromValue(json))
+                .retrieve()
+                .bodyToMono(String.class)
+                .block();
     }
 }

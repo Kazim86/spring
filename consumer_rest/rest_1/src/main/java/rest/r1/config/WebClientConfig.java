@@ -4,6 +4,7 @@ import io.netty.channel.ChannelOption;
 import io.netty.handler.timeout.ReadTimeoutHandler;
 import io.netty.handler.timeout.WriteTimeoutHandler;
 import lombok.var;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.client.reactive.ReactorClientHttpConnector;
@@ -15,8 +16,11 @@ import java.util.concurrent.TimeUnit;
 
 @Configuration
 public class WebClientConfig {
-    private static final String BASE_URL = "localhost:9081";
-    public static final int TIMEOUT = 1000;
+    @Value("${webclient.url}")
+    private String BASE_URL;
+
+    @Value("${webclient.timeout}")
+    private int TIMEOUT;
 
     @Bean
     public WebClient webClientWithTimeout() {
