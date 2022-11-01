@@ -8,12 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/R1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/R1Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/config/WebClientConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/controller/R1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/controller/R1Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool/etcauth.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +64,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Java/git/Spring",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/Java/git/Spring/consumer_rest/rest_1",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
@@ -234,12 +231,40 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="rest [clean,compile,package]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="compile" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/consumer_rest/rest_1" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.AnalysisApplication" />
       <item itemvalue="Application.ProducerApplication" />
       <item itemvalue="Application.R1Application" />
       <item itemvalue="Application.R2Application" />
       <item itemvalue="Application.WriteApplication" />
+      <item itemvalue="Maven.rest [clean,compile,package]" />
       <item itemvalue="Maven.main [clean]" />
       <item itemvalue="Maven.main [clean,compile,package]" />
     </list>

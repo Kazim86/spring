@@ -1,0 +1,14 @@
+server:
+  port: 9080
+
+webclient:
+  url: ""
+  timeout: 1000
+
+etcAuth:
+  secretKey: qwertyuiopasdfghjklzxcvbnm123456LKgkhgkhGLKHJBLkjhlkjhlkgl9765i867gkjhgkJGKJHGJKhgdi7658i7658i7ugKasdufg9287364876akjshd
+  tokenName: etc_token
+  rolePrefix: ""
+  roleAdmin: ADMINS
+  roleAny: "*"
+  rolePublic: "USERS"

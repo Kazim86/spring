@@ -1,15 +1,14 @@
 package rest.r1.controller;
 
-import com.rusal.springauth.EtcAuth;
+import rest.r1.auth.EtcAuth;
+import rest.r1.auth.TokenUser;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.MediaType;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.reactive.function.client.WebClient;
 
-@RestController
-@RequestMapping(path = "/", produces = "application/json")
+@Controller
 public class R1Controller {
 
     @Autowired
@@ -19,9 +18,10 @@ public class R1Controller {
         this.webClient = webClient;
     }
 
-    @EtcAuth
-    @GetMapping(value = "get")
-    public String getPots() {
+    @EtcAuth(roles = {"ADMINS","USERS"})
+    @RequestMapping(method = RequestMethod.GET, path = "/get", produces = "application/json")
+    public String get(TokenUser user) {
+        System.out.println(user.toString());
         /*
         String out = webClient
                 .get()
@@ -31,21 +31,8 @@ public class R1Controller {
                 .bodyToMono(String.class)
                 .block();
         System.out.println(out);
-        */
 
-        return "index";
-    }
-
-    @PostMapping(value = "post")
-    public String post(Model model, @RequestParam(value = "data_post", required = false) String data_post){
-        String out = webClient
-                .post()
-                .uri(data_post)
-                .header(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
-                .retrieve()
-                .bodyToMono(String.class)
-                .block();
-        model.addAttribute("data_post", out);
+         */
         return "index";
     }
 }
