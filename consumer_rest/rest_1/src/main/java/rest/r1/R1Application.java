@@ -1,14 +1,11 @@
 package rest.r1;
 
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import etcauth.EtcAuth;
 
 @SpringBootApplication
 public class R1Application {
 	public static void main(String[] args) {
-		//SpringApplication.run(R1Application.class, args);
-		EtcAuth etcAuth;
+		SpringApplication.run(R1Application.class, args);
 	}
 }

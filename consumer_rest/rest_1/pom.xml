@@ -11,4 +11,18 @@
 	<artifactId>rest</artifactId>
 	<name>r1</name>
 	<description>Demo project for Spring Boot</description>
+	<dependencies>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.9.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.rusal</groupId>
+			<artifactId>springauth</artifactId>
+			<scope>system</scope>
+			<version>0.1</version>
+			<systemPath>${project.basedir}/src/libs/spring-auth.jar</systemPath>
+		</dependency>
+	</dependencies>
 </project>

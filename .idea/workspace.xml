@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ca35d85-d73f-4f15-827c-c5c0d0c9c405" name="Changes" comment="re">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/R1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/R1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/config/WebClientConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/controller/R1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/java/rest/r1/controller/R1Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_2/src/main/java/rest/r2/R2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_2/src/main/java/rest/r2/R2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_rest/rest_1/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/etcauth.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,25 +60,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Java/git/Spring/tool/etcauth.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Java/git/Spring",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Java\git\Spring\consumer_rest\rest_1\src\main\resources" />
@@ -83,11 +87,11 @@
       <recent name="C:\Java\git\Spring\producer_tcpserver\src\main\resources\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Java\git\Spring\consumer_rest\rest_1" />
       <recent name="C:\Java\git\Spring\tool" />
       <recent name="C:\Java\git\Spring\consumer_rest\rest_1\src\main\java" />
       <recent name="C:\Java\git\Spring\consumer_rest\rest_1\src\main\lib" />
       <recent name="C:\Java\git\Spring\consumer_rest\rest_1\src\main\resources" />
-      <recent name="C:\Users\Evgeny\IdeaProjects\Spring\consumer_rest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="consumer.analysis.config" />
@@ -233,9 +237,9 @@
     <list>
       <item itemvalue="Application.AnalysisApplication" />
       <item itemvalue="Application.ProducerApplication" />
-      <item itemvalue="Application.WriteApplication" />
       <item itemvalue="Application.R1Application" />
       <item itemvalue="Application.R2Application" />
+      <item itemvalue="Application.WriteApplication" />
       <item itemvalue="Maven.main [clean]" />
       <item itemvalue="Maven.main [clean,compile,package]" />
     </list>
