@@ -21,6 +21,7 @@
         <module>producer</module>
         <module>producer_tcpclient</module>
         <module>producer_tcpserver</module>
+        <module>config_rest</module>
     </modules>
     <properties>
         <java.version>11</java.version>
