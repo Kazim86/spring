@@ -5,3 +5,4 @@
 #### 2.1. Модуль записи в БД (clickhouse) (consumer_write)
 #### 2.2. Модуль REST API (обмен данными с Elvis) (consumer_rest)
 #### 2.3. Модуль анализа данных (consumer_analysis)
+KRAZ-WN-363058.hq.root.ad
